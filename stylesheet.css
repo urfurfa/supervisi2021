@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 95px 0 100px 0;
+  background-image: url("top.png");
+  background-color: rgba(254, 246, 207, 0.9);
+  background-size: cover;
+  color: #da1a40;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 130px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  font-family: "trashhand";
+}
+.u {
+  color: #fc9825;
+}
+.s {
+  color: #114499;
+}
+.r {
+  color: #34b9cd;
+}
+.u2 {
+  color: #fcd515;
+}
+.m {
+  color: #008080;
+}
+.top-wrapper h2 {
+  opacity: 1;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  font-family: "trashhand";
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+  font-size: 18px;
+  color: black;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-wrapper p {
+  margin: 20px 0;
+}
+
+.katalog {
+  background-color: #ffc61c;
+  margin-right: 10px;
+  color: white;
+}
+
+.daftar {
+  background-color: #34b9cd;
+  color: white;
+}
+
+.btn {
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #DA1A40;
+  opacity: 0.8;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: rgba(254, 246, 207, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  padding-top: 10px;
+  width: auto;
+  height: 60px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 75px;
+  padding: 0 25px;
+  color: #da1a40;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255, 0.7);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 32px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(255, 255, 255,1);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #da1a40;
+}
+
+.heading h2 {
+  opacity: 1;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-family: "trashhand";
+  color: black;
+}
+
+
+.heading h3 {
+  padding-bottom: 10px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: rgba(255, 198, 28);
+}
+.message-wrapper heading {
+  padding-bottom: 20px;
+}
+.message-wrapper p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+.location {
+  width: 50%;
+  float: left;
+}
+.location p {
+  padding-left: 120px;
+  text-align: left;
+}
+.location a {
+  color: #da1a40;
+}
+.location a:hover {
+  color: blue;
+}
+.schedule {
+  width: 50%;
+  float: right;
+}
+
+.message {
+  padding: 15px 40px;
+  margin-top: 30px;
+  background-color: #e77877;
+  cursor: pointer;
+  box-shadow: 0 7px #da1a40;
+  color: white;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: black;
+  font-size: 14px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
