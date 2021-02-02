@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUSRUMA</title>
+  <link href="https://webfonts.ffonts.net/TrashHand.font">
+  <link href="https://fonts.google.com/specimen/Nunito?category=Sans+Serif,Display>">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="shortcut icon" href="favicon.ico" >
+</head>
+<body>
+<!-------------------------------HEADER---------------------------------->
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="logo-01.png">
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="http://pusruma.com">Beranda</a>
+          <a href="http://pusruma.com/tentang">Tentang</a>
+          <a href="http://pusruma.com/katalog">Katalog</a>
+          <a href="http://instagram.com/pusruma">@pusruma</a>
+        </div>
+      </div>
+    </header>
+<!---------------------------BAGIAN UTAMA------------------------------->
+    <div class="top-wrapper">
+      <div class="container">
+        <div class="fade-in">
+        <h1>P<span class="u">U</span><span class="s">S</span><span class="r">R</span><span class="u2">U</span><span class="m">M</span>A</h1>
+        <h2>Perpustakaan Belakang Rumah</h2>
+        <p>Pusruma adalah perpustakaan kecil untuk sarana belajar anak dan keluarga.</p>
+        <p>Temukan buku dan aktivitas kesukaanmu di belakang rumah kami!</p>
+        </div>
+        <div class="btn-wrapper">
+          <a href="http://pusruma.com/katalog" class="btn katalog"><span class="fa fa-book"></span>Katalog</a>
+          <a href="#" class="btn daftar"><span class="fa fa-user"></span>Menjadi Anggota</a>
+        </div>
+      </div>
+    </div>
+    
+    <!---------------------------------FOOTER-------------------------------->
+    <footer>
+      <div class="container">
+        <img src="logo-01.png">
+        <p>Copyright PUSRUMA 2020. Crafted by Perpustakaan Belakang Rumah.</p>
+      </div>
+    </footer>
+  </body>
+</html>
